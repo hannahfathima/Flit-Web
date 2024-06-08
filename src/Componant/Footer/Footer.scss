@@ -1,0 +1,199 @@
+html{
+    scroll-behavior: smooth;
+}
+.FooterMainWrapper {
+    background-image: url('/Images/Footer BG.jpg');
+    background-size: cover;
+
+    .footer {
+.b-t-arrow{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 3%;
+    right: 1%;
+    border-radius: 50%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 2px 3px 0px #00000040 inset;
+    animation: shake 3s infinite alternate;
+
+    img{
+        width: 100%;
+       
+    }
+    @keyframes shake {
+        0% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+}
+        width: 100%;
+        // height: 400px;
+
+        padding: 3rem 7rem;
+
+        .footer-left {
+            img {
+                width: 80px;
+            }
+
+            .location {
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 19.36px;
+                color: #555555;
+                padding-top: 2rem;
+            }
+
+            .location-disc {
+                font-family: Inter;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 16.94px;
+                color: #555555;
+            }
+
+            .social-icons {
+                display: flex;
+                gap: 1rem;
+                padding-top: 2rem;
+
+
+                img {
+                    width: 24px;
+                }
+            }
+        }
+
+        .footer-center-left {
+            padding-top: 2rem;
+
+            h3 {
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 19.36px;
+                color: #1D1D1F;
+
+            }
+
+            .List {
+                display: flex;
+                flex-direction: column;
+                padding-top: 3rem;
+                gap: 8px;
+
+                a {
+                    text-decoration: none;
+                    font-family: Inter;
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 16.94px;
+                    color: #555555;
+                }
+            }
+        }
+
+        .footer-center-right {
+            padding-top: 2rem;
+
+            h3 {
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 19.36px;
+                color: #1D1D1F;
+
+            }
+
+            .List {
+                display: flex;
+                flex-direction: column;
+                padding-top: 3rem;
+                gap: 8px;
+
+                a {
+                    text-decoration: none;
+                    font-family: Inter;
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 16.94px;
+                    color: #555555;
+                }
+            }
+        }
+
+        .footer-right {
+            padding-top: 2rem;
+
+            h3 {
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 19.36px;
+                color: #1D1D1F;
+
+            }
+
+            .List {
+                display: flex;
+                flex-direction: column;
+                padding-top: 3rem;
+                gap: 8px;
+
+                a {
+                    text-decoration: none;
+                    font-family: Inter;
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 16.94px;
+                    color: #555555;
+                }
+            }
+        }
+    }
+
+    .cpy-rgt {
+        height: 60px;
+        border-top: 1px solid #0000001A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span {
+            font-family: Inter;
+            font-size: 14px;
+            font-weight: 200;
+            line-height: 16.94px;
+
+        }
+    }
+
+    @media(max-width:991px) {
+        .footer {
+            text-align: center !important;
+            padding: 2rem !important;
+
+        }
+
+        .social-icons {
+            justify-content: center !important;
+        }
+        .cpy-rgt{
+            span{
+                text-align: center !important;
+            }
+        }
+    }
+}
