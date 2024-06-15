@@ -26,13 +26,13 @@ arrows:false,
 
   };
 
-  const handleNext = () => {
-    sliderRef.current.slickNext();
-  };
+//   const handleNext = () => {
+//     sliderRef.current.slickNext();
+//   };
 
-  const handlePrev = () => {
-    sliderRef.current.slickPrev();
-  };
+//   const handlePrev = () => {
+//     sliderRef.current.slickPrev();
+//   };
   
   return (
     <div className='hero-main-body'>
@@ -42,13 +42,14 @@ arrows:false,
           <div className="row hero-row">
             <div className="col-lg-7 col-md-7 col-sm-12" data-aos="fade-right">
               <div className="banner-left-contents">
+           
+                <div className="banner-description">
                 <div className="welcome-heading1">
                   <h3>Welcome To First Logic Meta Lab</h3>
                 </div>
                 <div className="banner-main-heading">
                   <h1>Innovative Solutions for a Changing World</h1>
                 </div>
-                <div className="banner-description">
                   <p>Our user-centered design approach creates software solutions that are easy to use and deliver maximum impact. Our focus on user experience ensures that our software solutions meet the needs of both businesses and end-users.</p>
                   <div className="get-details-btn">
                     <button>Get Details</button>
@@ -62,30 +63,24 @@ arrows:false,
                   <div>
 
                   <div className="banner-image">
-                      <img src="/Images/Banner BG Image copy.jpg" alt="" />
+                      <img src="/Images/Subtract Pic.svg" alt="" />
                   </div>
                   </div>
                   <div>
                          <div className="banner-image">
-                         <img src="/Images/Banner BG Image copy.jpg" alt="" />
+                         <img src="/Images/Subtract Pic.svg" alt="" />
                   </div>
                   </div>
                   <div>
                   <div className="banner-image">
-                  <img src="/Images/Banner BG Image copy.jpg" alt="" />
+                  <img src="/Images/Subtract Pic.svg" alt="" />
                     </div>
                   </div>
       
                 </Slider>
+           
           
-   <div className="arrowss">
-   <div className="prev-arrow" onClick={handlePrev}>
-                <img src="/Images/Icon next.png" alt="" />
-          </div>
-          <div className="next-arrow"onClick={handleNext}>
-          <img src="/Images/Icon next.png" alt="" />
-          </div>
-   </div>
+
             </div>
                
             </div>

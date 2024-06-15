@@ -29,7 +29,7 @@ const Navbar = () => {
         <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
                 <li className='nav-li'><Link to=''>Home</Link></li>
                 <li className='nav-li'><Link to='/aboutPage'>About Us</Link></li>
-                <li className='nav-li'><Link to=''>Services</Link></li>
+                <li className='nav-li'><Link to='/service'>Services</Link></li>
                 <li className='nav-li'><Link to=''>Technology</Link></li>
                 <li className='nav-li'><Link to=''>Case Studies</Link></li>
                 <li className='nav-li'><Link to=''>Career</Link></li>

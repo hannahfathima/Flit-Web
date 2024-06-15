@@ -20,7 +20,8 @@ const Index = () => {
         <EffectiveTechnology/>
         <InstagramFeed/>
         <Monals/>
-        <Footer/>
+       <Footer/>
+     
     </div>
   )
 }
