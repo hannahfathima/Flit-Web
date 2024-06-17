@@ -61,21 +61,18 @@ arrows:false,
             <div className="banner-right-contents">
             <Slider  ref={sliderRef} {...settings}>
                   <div>
+                      <div className="banner-image">
+                        <img src="/Images/Subtract Pic.svg" alt="Subtract Pic.svg" /></div>                    
 
-                  <div className="banner-image">
-                      <img src="/Images/Subtract Pic.svg" alt="" />
-                  </div>
-                  </div>
+                 </div>
                   <div>
-                         <div className="banner-image">
-                         <img src="/Images/Subtract Pic.svg" alt="" />
-                  </div>
-                  </div>
+                        
+                      <div className="banner-image">
+                        <img src="/Images/Subtract Pic.svg" alt="" /></div>                  </div>
                   <div>
-                  <div className="banner-image">
-                  <img src="/Images/Subtract Pic.svg" alt="" />
-                    </div>
-                  </div>
+          
+                      <div className="banner-image">
+                        <img src="/Images/Subtract Pic.svg" alt="" /></div>                  </div>
       
                 </Slider>
            
@@ -87,6 +84,8 @@ arrows:false,
           </div>
         </div>
       </div>
+
+
     </div>
   );
 };
