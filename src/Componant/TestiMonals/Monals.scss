@@ -1,6 +1,6 @@
 .Monals-main-body {
     .monals-sub-body {
-        background-image: url("/Images/Testimonial BG.jpg");
+        background-image: url("/Images/Testimonials - BG.jpg");
         width: 100%;
         padding: 60px 90px 30px;
         position: relative;
@@ -67,9 +67,11 @@
 
             .testimonals-card {
                 width: 100%;
-                background-color: #ffff;
+                background-image: url("/Images/Testimonials - Card BG.jpg");
                 box-shadow: 0px 2px 3px 0px #00000040;
+                background-position: top;
                 border-radius: 15px;
+           
                 padding: 16px 16px;
                 margin: auto;
 

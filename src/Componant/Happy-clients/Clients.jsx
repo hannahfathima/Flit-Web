@@ -53,9 +53,9 @@ const Clients = () => {
   <div className="row">
     <div className="col-lg-6">
       <div className="cilent-left">
-      <div className="left-heading">
+      {/* <div className="left-heading">
       <h1>LOREM IPSUM</h1>
-      </div>
+      </div> */}
       
       </div>
     </div>

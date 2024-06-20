@@ -14,10 +14,11 @@ const Index = () => {
         <Hero/>
         <About/>
         <Service/>
+        <EffectiveTechnology/>
         <Case/>
 
         <Clients/>
-        <EffectiveTechnology/>
+   
         <InstagramFeed/>
         <Monals/>
        <Footer/>

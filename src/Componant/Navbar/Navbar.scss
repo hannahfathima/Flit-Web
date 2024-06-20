@@ -68,6 +68,9 @@
             align-items: center;
             padding: 10px 20px;
             background: #FFFFFF80;
+            width: 100%;
+            position: fixed;
+            z-index: 9999;
 
         }
 
@@ -153,11 +156,21 @@ color: #ffffff;
 }
 
 @media (max-width: 1024px) {
-   .Navbar-sub-body .navbar{
+ .logo{
+  margin: 0px !important;
+  img{
+    width: 58px !important;
+    height: 58px;
+  }
+ }
+   .navbar{
         justify-content: space-between;
+        background-color: #ffff;
+       
     }
   .nav-links {
     display: none;
+
     flex-direction: column;
     width: 100%;
   }

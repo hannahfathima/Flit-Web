@@ -39,23 +39,32 @@ const About = () => {
 
           </div>
         </div>
-        <h3 className="about-heading" data-aos="fade-up">About First Logic</h3>
-        <p className="about-para" data-aos="fade-up">Realize The Future Of Digital Intelligence</p>
+<div className="about-heading-wrapper">
+<h3 className="about-heading" data-aos="fade-up">About First Logic</h3>
+<p className="about-para" data-aos="fade-up">Realize The Future Of Digital Intelligence</p>
+</div>
         <div className="container-fluid">
           <div className="row about-details">
             <div className="col-lg-6 about-details-left">
-              <div className="mobile-cards">
+                 <div className="about-details-left-image">
+                  <img src="/Images/About - Picture.png" alt="" />
+                  
+                <div className="circle1"><span>Over 200+<br/>Clients</span></div>
+                <div className="circle2"><span>11 Years<br/>Experience in IT</span> </div>
+                 </div>
+     
+
+
+                <div className="mobile-cards">
                 <div className="mobile-card" data-aos="fade-up"><span >Over 200+ Clients</span></div>
                 <div className="mobile-card" data-aos="fade-up"><span>11 Years Experience in IT</span></div>
               </div>
-              <div className="circles-main" data-aos="fade-right">
-                <div className="circle1"><span>Over 200+<br/>Clients</span></div>
-                <div className="circle2"><span>11 Years<br/>Experience in IT</span> </div>
-              </div>
-            </div>
+           </div>
             <div className="col-lg-6 about-details-right" data-aos="fade-left" >
-              <p >We are a team of professionals who assist companies in modernizing with innovative and attentive business development solutions to boost sales and revenue. We help you make the most of this digital era by providing sought‐after business development solutions for all niches. We came together from various backgrounds with one vision: to bring a lean, user-centric approach to product innovation and software development by completely understanding the business needs before building anything.</p>
-              <button>More About Us</button>
+       <div className="about-right-content">
+       <p >We are a team of professionals who assist companies in modernizing with innovative and attentive business development solutions to boost sales and revenue. We help you make the most of this digital era by providing sought‐after business development solutions for all niches. We came together from various backgrounds with one vision: to bring a lean, user-centric approach to product innovation and software development by completely understanding the business needs before building anything.</p>
+       <button>More About Us</button>
+       </div>
             </div>
           </div>
         </div>

@@ -21,7 +21,7 @@ const Case = () => {
 </div>
 
 <div className="container-fluid">
-    <div className="row">
+    <div className="row case-card-wrapper">
     <div className="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up">
     <div className="case-study-card">
         <div className="study-card-img">
